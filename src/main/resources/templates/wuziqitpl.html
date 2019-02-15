@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>${name}</title>
+</head>
+<body>
+wuziqi123
+<script>
+    let xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = (...rest)=>{
+        console.log(rest)
+    }
+    xhr.open('GET','/api/wuziqi/getList');
+    xhr.send()
+</script>
+</body>
+</html>
