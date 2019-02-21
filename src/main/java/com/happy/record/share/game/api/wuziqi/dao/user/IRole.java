@@ -1,4 +1,4 @@
-package com.happy.record.share.game.api.wuziqi.dao;
+package com.happy.record.share.game.api.wuziqi.dao.user;
 
 import com.happy.record.share.game.api.wuziqi.model.Role;
 import org.apache.ibatis.annotations.Mapper;

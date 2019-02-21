@@ -1,0 +1,17 @@
+
+
+
+CREATE TABLE room(                  
+	id INT(10) NOT NULL AUTO_INCREMENT, 
+	player1 INT(10),                    
+	player2 INT(10),                    
+	create_date TIMESTAMP NOT NULL DEFAULT NOW(),
+	winner int(10),                     
+	PRIMARY KEY (id)                    
+);               
+
+
+INSERT INTO room(player1,player2) VALUES(1,2);
+
+
+SELECT * FROM room;

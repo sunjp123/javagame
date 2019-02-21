@@ -22,7 +22,7 @@ public class ProductServiceInterceptor  implements HandlerInterceptor {
     public void postHandle(
             HttpServletRequest request, HttpServletResponse response, Object handler,
             ModelAndView modelAndView) throws Exception {
-        logger.info("postHandle",response);
+        logger.info("postHandle"+response.getStatus());
     }
 
     @Override
